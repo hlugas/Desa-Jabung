@@ -28,6 +28,9 @@
     <link href="assets/css/navbar.css" rel="stylesheet" />
     <link href="assets/css/about.css" rel="stylesheet" />
     <link href="assets/css/footer.css" rel="stylesheet" />
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   </head>
 
   <body class="about-page">
@@ -48,8 +51,8 @@
             <li><a href="about.html" class="active">Profil Desa</a></li>
             <li><a href="surat-menyurat.html">Surat Menyurat</a></li>
             <li><a href="anggaran.html">Anggaran</a></li>
-            <li><a href="blog.html">Galery</a></li>
-            <li><a href="contact.html">Pengaduan</a></li>
+            <li><a href="galery.html">Galery</a></li>
+            <li><a href="pengaduan.html">Pengaduan</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
@@ -57,7 +60,7 @@
     </header>
 
     <main class="main">
-      <!-- Page Title -->
+      <!-- Hero Section -->
       <div class="page-title dark-background" style="background-image: url(assets/img/page-title-bg.jpg)">
         <div class="container position-relative">
           <nav class="breadcrumbs">
@@ -71,9 +74,9 @@
           </div>
         </div>
       </div>
-      <!-- End Page Title -->
+      <!-- End Hero Section -->
 
-      <!-- About Section -->
+      <!-- Visi Misi Section -->
       <section class="container">
         <h2 style="text-align: center; color: #003d81">Visi Desa Jabung</h2>
         <h4 style="text-align: center">"Mewujudkan Desa Jabung yang Aman, Damai, Adil dan Berbudaya"</h4>
@@ -119,20 +122,19 @@
           </li>
         </ol>
       </section>
-      <!-- /About Section -->
+      <!-- End Visi Misi Section -->
 
-      <!-- Stats Counter Section -->
+      <!-- Demografi Section -->
       <section class="section-demografi">
-        <!-- Section Title -->
         <div>
           <h2 style="text-align: center; color: #003d81">Demografi Desa Jabung</h2>
         </div>
-        <!-- End Section Title -->
-
         <div class="kotak-wilayah container">
           <div class="batas-jumlah-luas-orbitasi">
-            <div class="batas-jumlah-wilayah">
-              <div class="batas-dan-penduduk">
+            <div
+              class="batas-jumlah-wilayah d-flex flex-column justify-content-center align-items-center gap-2 flex-lg-row align-items-lg-stretch"
+            >
+              <div class="batas-dan-penduduk w-100">
                 <div class="batas-wilayah pt-1">
                   <h5 style="text-align: center"><p>Batas Wilayah Desa</p></h5>
                   <div class="list-batas-wilayah">
@@ -166,7 +168,7 @@
                   </div>
                 </div>
               </div>
-              <div class="luas-wilayah pt-1">
+              <div class="luas-wilayah pt-1 w-100">
                 <h5 style="text-align: center"><p>Luas Wilayah</p></h5>
                 <div class="list-luas-wilayah">
                   <ul>
@@ -214,10 +216,10 @@
           </div>
         </div>
       </section>
-      <!-- /Stats Counter Section -->
+      <!-- End Demografi Section -->
 
       <!-- Section bagan susunan -->
-      <section class="bagan-susunan section">
+      <section class="container section">
         <!-- Section Title -->
         <div>
           <h2 style="text-align: center; color: #003d81">
@@ -225,24 +227,313 @@
             Pemerintah Desa Jabung, Kecamatan Mlarak
           </h2>
         </div>
+        <div class="container swiper mt-4">
+          <div class="swiper-wrapper d-flex gap-3">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div href="#" class="pdf-container">
+                <svg
+                  viewBox="0 0 48 48"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  fill="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                    <title>ic_fluent_person_48_filled</title>
+                    <desc>Created with Sketch.</desc>
+                    <g id="🔍-System-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <g id="ic_fluent_person_48_filled" fill="#fff" fill-rule="nonzero">
+                        <path
+                          d="M35.7502,28 C38.0276853,28 39.8876578,29.7909151 39.9950978,32.0427546 L40,32.2487 L40,33 C40,36.7555 38.0583,39.5669 35.0798,41.3802 C32.1509,43.1633 28.2139,44 24,44 C19.7861,44 15.8491,43.1633 12.9202,41.3802 C10.0319285,39.6218485 8.11862909,36.9249713 8.00532378,33.3388068 L8,33 L8,32.2489 C8,29.9703471 9.79294995,28.1122272 12.0440313,28.0048972 L12.2499,28 L35.7502,28 Z M24,4 C29.5228,4 34,8.47715 34,14 C34,19.5228 29.5228,24 24,24 C18.4772,24 14,19.5228 14,14 C14,8.47715 18.4772,4 24,4 Z"
+                          id="🎨-Color"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <p>Kepala Desa</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div href="#" class="pdf-container">
+                <svg
+                  viewBox="0 0 48 48"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  fill="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                    <title>ic_fluent_person_48_filled</title>
+                    <desc>Created with Sketch.</desc>
+                    <g id="🔍-System-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <g id="ic_fluent_person_48_filled" fill="#fff" fill-rule="nonzero">
+                        <path
+                          d="M35.7502,28 C38.0276853,28 39.8876578,29.7909151 39.9950978,32.0427546 L40,32.2487 L40,33 C40,36.7555 38.0583,39.5669 35.0798,41.3802 C32.1509,43.1633 28.2139,44 24,44 C19.7861,44 15.8491,43.1633 12.9202,41.3802 C10.0319285,39.6218485 8.11862909,36.9249713 8.00532378,33.3388068 L8,33 L8,32.2489 C8,29.9703471 9.79294995,28.1122272 12.0440313,28.0048972 L12.2499,28 L35.7502,28 Z M24,4 C29.5228,4 34,8.47715 34,14 C34,19.5228 29.5228,24 24,24 C18.4772,24 14,19.5228 14,14 C14,8.47715 18.4772,4 24,4 Z"
+                          id="🎨-Color"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <p>Kepala Desa</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div href="#" class="pdf-container">
+                <svg
+                  viewBox="0 0 48 48"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  fill="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                    <title>ic_fluent_person_48_filled</title>
+                    <desc>Created with Sketch.</desc>
+                    <g id="🔍-System-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <g id="ic_fluent_person_48_filled" fill="#fff" fill-rule="nonzero">
+                        <path
+                          d="M35.7502,28 C38.0276853,28 39.8876578,29.7909151 39.9950978,32.0427546 L40,32.2487 L40,33 C40,36.7555 38.0583,39.5669 35.0798,41.3802 C32.1509,43.1633 28.2139,44 24,44 C19.7861,44 15.8491,43.1633 12.9202,41.3802 C10.0319285,39.6218485 8.11862909,36.9249713 8.00532378,33.3388068 L8,33 L8,32.2489 C8,29.9703471 9.79294995,28.1122272 12.0440313,28.0048972 L12.2499,28 L35.7502,28 Z M24,4 C29.5228,4 34,8.47715 34,14 C34,19.5228 29.5228,24 24,24 C18.4772,24 14,19.5228 14,14 C14,8.47715 18.4772,4 24,4 Z"
+                          id="🎨-Color"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <p>Kepala Desa</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div href="#" class="pdf-container">
+                <svg
+                  viewBox="0 0 48 48"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  fill="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                    <title>ic_fluent_person_48_filled</title>
+                    <desc>Created with Sketch.</desc>
+                    <g id="🔍-System-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <g id="ic_fluent_person_48_filled" fill="#fff" fill-rule="nonzero">
+                        <path
+                          d="M35.7502,28 C38.0276853,28 39.8876578,29.7909151 39.9950978,32.0427546 L40,32.2487 L40,33 C40,36.7555 38.0583,39.5669 35.0798,41.3802 C32.1509,43.1633 28.2139,44 24,44 C19.7861,44 15.8491,43.1633 12.9202,41.3802 C10.0319285,39.6218485 8.11862909,36.9249713 8.00532378,33.3388068 L8,33 L8,32.2489 C8,29.9703471 9.79294995,28.1122272 12.0440313,28.0048972 L12.2499,28 L35.7502,28 Z M24,4 C29.5228,4 34,8.47715 34,14 C34,19.5228 29.5228,24 24,24 C18.4772,24 14,19.5228 14,14 C14,8.47715 18.4772,4 24,4 Z"
+                          id="🎨-Color"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <p>Kepala Desa</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div href="#" class="pdf-container">
+                <svg
+                  viewBox="0 0 48 48"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  fill="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                    <title>ic_fluent_person_48_filled</title>
+                    <desc>Created with Sketch.</desc>
+                    <g id="🔍-System-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <g id="ic_fluent_person_48_filled" fill="#fff" fill-rule="nonzero">
+                        <path
+                          d="M35.7502,28 C38.0276853,28 39.8876578,29.7909151 39.9950978,32.0427546 L40,32.2487 L40,33 C40,36.7555 38.0583,39.5669 35.0798,41.3802 C32.1509,43.1633 28.2139,44 24,44 C19.7861,44 15.8491,43.1633 12.9202,41.3802 C10.0319285,39.6218485 8.11862909,36.9249713 8.00532378,33.3388068 L8,33 L8,32.2489 C8,29.9703471 9.79294995,28.1122272 12.0440313,28.0048972 L12.2499,28 L35.7502,28 Z M24,4 C29.5228,4 34,8.47715 34,14 C34,19.5228 29.5228,24 24,24 C18.4772,24 14,19.5228 14,14 C14,8.47715 18.4772,4 24,4 Z"
+                          id="🎨-Color"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <p>Kepala Desa</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
         <!-- End Section Title -->
       </section>
       <!-- End Section bagan susunan -->
 
       <!-- Section kepala desa -->
-      <section class="kepala-desa section">
-        <!-- Section Title -->
-        <div>
-          <h2 style="text-align: center; color: #003d81">
-            Bagan Susunan Organisasi dan Tata Kerja <br />
-            Pemerintah Desa Jabung, Kecamatan Mlarak
-          </h2>
+      <section class="section-demografi">
+        <div class="container">
+          <h2 style="text-align: center; color: #003d81">Kepala Desa yang pernah menjabat di Desa Jabung</h2>
+          <div class="container swiper mt-4">
+            <div class="swiper-wrapper d-flex gap-3">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div href="#" class="pdf-container">
+                  <svg
+                    viewBox="0 0 48 48"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    fill="#000000"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                      <title>ic_fluent_person_48_filled</title>
+                      <desc>Created with Sketch.</desc>
+                      <g id="🔍-System-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="ic_fluent_person_48_filled" fill="#fff" fill-rule="nonzero">
+                          <path
+                            d="M35.7502,28 C38.0276853,28 39.8876578,29.7909151 39.9950978,32.0427546 L40,32.2487 L40,33 C40,36.7555 38.0583,39.5669 35.0798,41.3802 C32.1509,43.1633 28.2139,44 24,44 C19.7861,44 15.8491,43.1633 12.9202,41.3802 C10.0319285,39.6218485 8.11862909,36.9249713 8.00532378,33.3388068 L8,33 L8,32.2489 C8,29.9703471 9.79294995,28.1122272 12.0440313,28.0048972 L12.2499,28 L35.7502,28 Z M24,4 C29.5228,4 34,8.47715 34,14 C34,19.5228 29.5228,24 24,24 C18.4772,24 14,19.5228 14,14 C14,8.47715 18.4772,4 24,4 Z"
+                            id="🎨-Color"
+                          ></path>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                  <p>Kepala Desa</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div href="#" class="pdf-container">
+                  <svg
+                    viewBox="0 0 48 48"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    fill="#000000"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                      <title>ic_fluent_person_48_filled</title>
+                      <desc>Created with Sketch.</desc>
+                      <g id="🔍-System-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="ic_fluent_person_48_filled" fill="#fff" fill-rule="nonzero">
+                          <path
+                            d="M35.7502,28 C38.0276853,28 39.8876578,29.7909151 39.9950978,32.0427546 L40,32.2487 L40,33 C40,36.7555 38.0583,39.5669 35.0798,41.3802 C32.1509,43.1633 28.2139,44 24,44 C19.7861,44 15.8491,43.1633 12.9202,41.3802 C10.0319285,39.6218485 8.11862909,36.9249713 8.00532378,33.3388068 L8,33 L8,32.2489 C8,29.9703471 9.79294995,28.1122272 12.0440313,28.0048972 L12.2499,28 L35.7502,28 Z M24,4 C29.5228,4 34,8.47715 34,14 C34,19.5228 29.5228,24 24,24 C18.4772,24 14,19.5228 14,14 C14,8.47715 18.4772,4 24,4 Z"
+                            id="🎨-Color"
+                          ></path>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                  <p>Kepala Desa</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div href="#" class="pdf-container">
+                  <svg
+                    viewBox="0 0 48 48"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    fill="#000000"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                      <title>ic_fluent_person_48_filled</title>
+                      <desc>Created with Sketch.</desc>
+                      <g id="🔍-System-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="ic_fluent_person_48_filled" fill="#fff" fill-rule="nonzero">
+                          <path
+                            d="M35.7502,28 C38.0276853,28 39.8876578,29.7909151 39.9950978,32.0427546 L40,32.2487 L40,33 C40,36.7555 38.0583,39.5669 35.0798,41.3802 C32.1509,43.1633 28.2139,44 24,44 C19.7861,44 15.8491,43.1633 12.9202,41.3802 C10.0319285,39.6218485 8.11862909,36.9249713 8.00532378,33.3388068 L8,33 L8,32.2489 C8,29.9703471 9.79294995,28.1122272 12.0440313,28.0048972 L12.2499,28 L35.7502,28 Z M24,4 C29.5228,4 34,8.47715 34,14 C34,19.5228 29.5228,24 24,24 C18.4772,24 14,19.5228 14,14 C14,8.47715 18.4772,4 24,4 Z"
+                            id="🎨-Color"
+                          ></path>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                  <p>Kepala Desa</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div href="#" class="pdf-container">
+                  <svg
+                    viewBox="0 0 48 48"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    fill="#000000"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                      <title>ic_fluent_person_48_filled</title>
+                      <desc>Created with Sketch.</desc>
+                      <g id="🔍-System-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="ic_fluent_person_48_filled" fill="#fff" fill-rule="nonzero">
+                          <path
+                            d="M35.7502,28 C38.0276853,28 39.8876578,29.7909151 39.9950978,32.0427546 L40,32.2487 L40,33 C40,36.7555 38.0583,39.5669 35.0798,41.3802 C32.1509,43.1633 28.2139,44 24,44 C19.7861,44 15.8491,43.1633 12.9202,41.3802 C10.0319285,39.6218485 8.11862909,36.9249713 8.00532378,33.3388068 L8,33 L8,32.2489 C8,29.9703471 9.79294995,28.1122272 12.0440313,28.0048972 L12.2499,28 L35.7502,28 Z M24,4 C29.5228,4 34,8.47715 34,14 C34,19.5228 29.5228,24 24,24 C18.4772,24 14,19.5228 14,14 C14,8.47715 18.4772,4 24,4 Z"
+                            id="🎨-Color"
+                          ></path>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                  <p>Kepala Desa</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div href="#" class="pdf-container">
+                  <svg
+                    viewBox="0 0 48 48"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    fill="#000000"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                      <title>ic_fluent_person_48_filled</title>
+                      <desc>Created with Sketch.</desc>
+                      <g id="🔍-System-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="ic_fluent_person_48_filled" fill="#fff" fill-rule="nonzero">
+                          <path
+                            d="M35.7502,28 C38.0276853,28 39.8876578,29.7909151 39.9950978,32.0427546 L40,32.2487 L40,33 C40,36.7555 38.0583,39.5669 35.0798,41.3802 C32.1509,43.1633 28.2139,44 24,44 C19.7861,44 15.8491,43.1633 12.9202,41.3802 C10.0319285,39.6218485 8.11862909,36.9249713 8.00532378,33.3388068 L8,33 L8,32.2489 C8,29.9703471 9.79294995,28.1122272 12.0440313,28.0048972 L12.2499,28 L35.7502,28 Z M24,4 C29.5228,4 34,8.47715 34,14 C34,19.5228 29.5228,24 24,24 C18.4772,24 14,19.5228 14,14 C14,8.47715 18.4772,4 24,4 Z"
+                            id="🎨-Color"
+                          ></path>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                  <p>Kepala Desa</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination-2"></div>
+          </div>
         </div>
-        <!-- End Section Title -->
       </section>
       <!-- End Section kepala desa -->
     </main>
 
+    <!-- Section footer -->
     <footer id="footer" class="custom-footer">
       <div class="container p-4">
         <div class="d-flex flex-column justify-content-center align-items-center gap-2">
@@ -271,11 +562,13 @@
         </div>
       </div>
     </footer>
+    <!-- End Section footer -->
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script src="./assets/js/swiper.js"></script>
   </body>
 </html>
