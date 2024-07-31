@@ -68,11 +68,11 @@
   display: flex;
 }
 
-.kotak-wilayah .batas-jumlah-wilayah {
+/* .kotak-wilayah .batas-jumlah-wilayah {
   display: flex;
   justify-content: space-between;
   gap: 10px;
-}
+} */
 
 .kotak-wilayah .batas-jumlah-wilayah .batas-dan-penduduk {
   width: 50%;
@@ -105,4 +105,42 @@
 
 .kotak-wilayah .jumlah-penduduk .list-jumlah-penduduk {
   display: flex;
+}
+
+.pdf-container {
+  background: linear-gradient(#003d81, #000d1b);
+  padding: 30px;
+  border-radius: 15px;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+}
+
+.pdf-container img {
+  width: 90px;
+  margin-bottom: 10px;
+}
+
+.pdf-container p {
+  margin-bottom: 0;
+  color: #fff;
+  font-family: "Poppins", "sans-serif";
+}
+
+.swiper {
+  max-width: 900px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination {
+  position: initial !important;
+  margin-top: 10px;
 }
